@@ -13,7 +13,7 @@ App({
   },
   onShow: function () {
     //检测用户是否微信版本是否支持自定义组件
-    this.checkVersion()
+    this.checkVersion();
   },
   checkVersion: function () {
     const version = Number(wx.getSystemInfoSync().SDKVersion.split('.').join(''))
